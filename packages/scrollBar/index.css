@@ -1,0 +1,50 @@
+.fm-scrollbar:hover .fm-scrollbar__bar {
+  opacity: 1;
+  transition: opacity .34s ease-out;
+}
+
+.fm-scrollbar__wrapper{
+  overflow: scroll;
+  margin-right:-17px;
+  margin-bottom:-17px;
+}
+
+.fm-scrollbar__bar{
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  z-index: 1;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity .12s ease-out;
+}
+
+.fm-scrollbar__bar.is-vertical{
+  width: 6px;
+  top: 2px;
+}
+
+.fm-scrollbar__bar.is-vertical>div {
+  width: 100%;
+}
+
+.fm-scrollbar__bar.is-horizontal{
+  height: 6px;
+  left: 2px;
+}
+
+.fm-scrollbar__bar.is-horizontal>div {
+  height: 100%;
+}
+
+.fm-scrollbar__thumb{
+  position: relative;
+  display: block;
+  width: 0;
+  height: 0;
+  cursor: pointer;
+  border-radius: inherit;
+  background-color: rgba(151,168,190,.3);
+  transition: background-color .3s;
+}
+

@@ -1,0 +1,35 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:theme": "gulp build --gulpfile ./packages/theme/gulpfile.js && cp-cli packages/theme/dist dist/theme",
+    "build:file": "webpack --config ./build/webpack.build.js",
+    "dist": "npm run build:file && npm run build:theme",
+    "dev": "webpack-dev-server  --config ./build/webpack.dev.js"
+  },
+  "keywords": [
+    "Shang"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "cp-cli": "^1.1.0",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-util": "^3.0.8",
+    "html-webpack-plugin": "^2.30.1",
+    "internal-ip": "^3.0.0",
+    "style-loader": "^0.19.0",
+    "through2": "^2.0.3",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
