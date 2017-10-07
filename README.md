@@ -4,11 +4,11 @@
 * scroller
 
 ## 待开发
+* 准备中
 
 ## 项目运行
-### 开发环境 `npm run dev`， 访问 `localhost:8888`
-
-### 部署 `npm run dist`
+* 开发环境 `npm run dev`， 访问 `localhost:8888`
+* 部署 `npm run dist`
 
 ## Demo项目
 ### demo 
