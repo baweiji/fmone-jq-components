@@ -1,5 +1,5 @@
 {
-  "name": "components",
+  "name": "fmone-jq-components",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "dev": "webpack-dev-server  --config ./build/webpack.dev.js"
   },
   "keywords": [
-    "Shang"
+    "Shang","F-ONE"
   ],
   "author": "",
   "license": "ISC",
